@@ -1,0 +1,113 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quando a Lei Encontra o Inexplicável | O Portal da Cidade</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      background-color: #fff;
+      color: #000;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      font-size: 11pt;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 25px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 15px;
+    }
+    .newspaper-title {
+      font-size: 28pt;
+      font-weight: bold;
+      color: #002147;
+      margin: 0;
+    }
+    .subtitle {
+      font-size: 10pt;
+      color: #666;
+      margin-top: 5px;
+    }
+    h1 {
+      font-size: 18pt;
+      font-weight: bold;
+      text-align: center;
+      margin: 20px 0;
+    }
+    h2 {
+      font-size: 14pt;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    p {
+      text-align: justify;
+      margin: 12px 0;
+      text-indent: 1em;
+    }
+    em {
+      font-style: italic;
+    }
+    a {
+      color: #002147;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .author {
+      font-style: italic;
+      text-align: right;
+      margin-top: 20px;
+    }
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+      font-weight: bold;
+      color: #002147;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="newspaper-title">O PORTAL DA CIDADE</h1>
+    <div class="subtitle">Preço: Gratuito | www.portaldacidade.com.br</div>
+  </header>
+
+  <h1>Quando a Lei Encontra o Inexplicável</h1>
+
+  <p class="author">Por José Erigutemberg Meneses de Lima</p>
+
+  <p>Na manhã de 12 de outubro, em Blumenau, um homem desmaiou durante uma audiência de custódia. Daniel Rojas, acusado de furto qualificado, sofreu parada cardíaca. Após mais de 40 minutos de reanimação sem sucesso, foi declarado morto. Seu corpo foi levado ao Instituto Médico Legal.</p>
+
+  <p>Três dias depois, foi encontrado sentado na sala de necropsia — respirando, consciente, mas irreconhecível. Não lembrava seu nome, não reconhecia a família e recusava-se a assumir os atos do “Daniel” que todos conheciam. Chamava-se “Tiago”. Escrevia poesia em espanhol. E, curiosamente, não demonstrava impulsos agressivos.</p>
+
+  <p>O caso, que parece saído de um romance distópico, tem base em um fenômeno real e documentado pela medicina: o <strong>Fenômeno de Lázaro</strong> — ou autoressuscitação. Trata-se do retorno espontâneo da circulação após a interrupção da reanimação cardiopulmonar e a declaração de morte clínica. Até o final de 2022, 76 casos foram registrados em 27 países, incluindo crianças. Alguns pacientes sobreviveram sem sequelas neurológicas; outros voltaram com personalidades radicalmente transformadas.</p>
+
+  <p>A ciência ainda investiga os mecanismos exatos — hiperventilação, hipotermia, distúrbios metabólicos —, mas já reconhece: <strong>a morte clínica, em raríssimos casos, não é o fim absoluto da subjetividade</strong>.</p>
+
+  <p>E é justamente aí que o Direito vacila.</p>
+
+  <p>Nosso sistema penal pressupõe a <strong>continuidade da identidade psicológica</strong>. O réu é julgado porque se presume que é a mesma pessoa que cometeu o fato. Mas e quando o cérebro, após uma parada cardíaca prolongada, reorganiza-se de forma tão profunda que apaga a memória autobiográfica e redesenha a personalidade?</p>
+
+  <p>No caso de Rojas/Tiago, exames de imagem confirmaram lesões no hipocampo — região essencial para a memória — e desconexão entre áreas emocionais e racionais do cérebro. Em termos neurocientíficos, <strong>“Daniel” não existe mais</strong>. Há um novo padrão neural habitando o mesmo corpo.</p>
+
+  <p>O Direito brasileiro, porém, não tem protocolo para o inexplicável. A jurisprudência ainda hesita em reconhecer que a pessoa jurídica pode não coincidir com a pessoa biológica após eventos neurológicos extremos.</p>
+
+  <p>Punir “Tiago” por atos de “Daniel” seria punir um inocente? Ou liberá-lo seria um risco à segurança social?</p>
+
+  <p>Países como Noruega e Alemanha já incorporam critérios neurocientíficos em seus sistemas penais, especialmente em casos de alterações cognitivas pós-traumáticas. No Brasil, decisões do Supremo Tribunal Federal têm aberto espaço para uma justiça mais alinhada à ciência empírica — sobretudo quando esta demonstra que a punição retributiva não apenas falha, como agrava danos.</p>
+
+  <p>O caso de Daniel Rojas — ou Tiago — não é apenas um enigma médico. É um <strong>teste de humanidade para o sistema de justiça</strong>. Ele nos obriga a repensar conceitos como identidade, responsabilidade e justiça. E nos lembra que, por mais que a lei aspire à clareza, a vida insiste em seus paradoxos.</p>
+
+  <p>Diante do inexplicável, o Direito não deve se fechar em dogmas. Deve se abrir à ciência, à ética e, sobretudo, à possibilidade de recomeço. Porque, às vezes, quem “morre” em audiência não volta para ser punido — mas para nos ensinar que <strong>a verdadeira justiça começa quando reconhecemos que o outro já não é quem foi</strong>.</p>
+
+  <a href="../index.html" class="back-link">← Voltar à primeira página do Portal da Cidade</a>
+
+</body>
+</html>
