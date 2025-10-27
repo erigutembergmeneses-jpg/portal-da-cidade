@@ -5,66 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>O Portal da Cidade – Blumenau</title>
   <style>
-    * {
-      box-sizing: border-box;
+    body {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      background-color: #f8f6f2;
+      color: #1e1e1e;
+      line-height: 1.7;
       margin: 0;
       padding: 0;
-    }
-    body {
-      font-family: Georgia, "Times New Roman", serif;
-      background-color: #fcfaf6;
-      color: #222;
-      line-height: 1.6;
-      padding: 20px;
     }
     .container {
       max-width: 800px;
       margin: 0 auto;
+      padding: 30px 20px;
       background: white;
-      padding: 25px;
-      border: 1px solid #eee;
+      box-shadow: 0 0 12px rgba(0,0,0,0.05);
     }
     header {
       text-align: center;
-      margin-bottom: 25px;
+      border-bottom: 2px solid #2c3e50;
       padding-bottom: 15px;
-      border-bottom: 2px solid #2c4a68;
+      margin-bottom: 25px;
     }
     header h1 {
       font-size: 28px;
-      color: #2c4a68;
+      color: #2c3e50;
       letter-spacing: 1px;
+      font-weight: normal;
     }
     header p {
       font-size: 14px;
       color: #666;
-      margin-top: 5px;
+      margin-top: 6px;
+      font-style: italic;
     }
     .headline {
-      font-size: 30px;
+      font-size: 32px;
       font-weight: bold;
       text-align: center;
-      margin: 20px 0 15px;
+      margin: 25px 0 15px;
+      color: #000;
     }
     .subhead {
       font-style: italic;
       text-align: center;
-      font-size: 17px;
-      margin-bottom: 20px;
+      font-size: 18px;
+      margin-bottom: 25px;
       color: #444;
+    }
+    .photo-container {
+      text-align: center;
+      margin: 0 auto 20px;
+      max-width: 600px;
     }
     .photo {
       width: 100%;
-      max-width: 600px;
-      display: block;
-      margin: 0 auto 15px;
+      height: auto;
       border: 1px solid #ddd;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      display: block;
+      background-color: #fafafa;
     }
     .caption {
       text-align: center;
       font-style: italic;
       font-size: 14px;
-      margin-bottom: 20px;
+      margin-top: 8px;
       color: #555;
     }
     .article {
@@ -72,24 +77,26 @@
       text-align: justify;
     }
     .article p {
-      margin-bottom: 16px;
-    }
-    .footer-call {
-      margin-top: 25px;
-      text-align: center;
-      font-size: 14px;
-      color: #666;
-      font-style: italic;
+      margin-bottom: 18px;
     }
     @media (min-width: 768px) {
       .article {
         column-count: 2;
-        column-gap: 30px;
+        column-gap: 36px;
       }
       .article p {
         margin-bottom: 0;
         text-align: justify;
+        orphans: 3;
+        widows: 3;
       }
+    }
+    .footer-call {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      font-style: italic;
     }
   </style>
 </head>
@@ -104,9 +111,10 @@
     <h2 class="headline">O HOMEM QUE RETORNOU DA MORTE</h2>
     <p class="subhead">Comunidade se divide após caso inédito na Justiça catarinense: réu colapsa em audiência, é declarado morto — e reaparece dias depois com nova identidade, memória e propósito</p>
 
-    <!-- Imagem real: nome exato deve ser "daniel-rojas.jpg" -->
-    <img src="daniel-rojas.jpg" alt="Daniel Rojas sentado em banco de praça, olhando para o horizonte" class="photo">
-    <p class="caption">“Réu ‘morre’ em audiência e volta como outro homem.”</p>
+    <div class="photo-container">
+      <img src="daniel-rojas.jpg" alt="Daniel Rojas sentado em banco de praça, olhando para o horizonte" class="photo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'padding:40px; background:#f9f9f9; border:1px dashed #ccc; color:#888; font-style:italic;\'>Imagem não disponível</div>'">
+      <p class="caption">“Réu ‘morre’ em audiência e volta como outro homem.”</p>
+    </div>
 
     <div class="article">
       <p>
