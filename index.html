@@ -1,26 +1,95 @@
-
 <!DOCTYPE html>
-      margin-bottom: 9px;
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>O Portal da Cidade – Blumenau</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
-    .resources-list a {
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background-color: #fcfaf6;
+      color: #222;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 25px;
+      border: 1px solid #eee;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 25px;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #2c4a68;
+    }
+    header h1 {
+      font-size: 28px;
       color: #2c4a68;
-      text-decoration: none;
+      letter-spacing: 1px;
     }
-    .resources-list a:hover {
-      text-decoration: underline;
+    header p {
+      font-size: 14px;
+      color: #666;
+      margin-top: 5px;
+    }
+    .headline {
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      margin: 20px 0 15px;
+    }
+    .subhead {
+      font-style: italic;
+      text-align: center;
+      font-size: 17px;
+      margin-bottom: 20px;
+      color: #444;
+    }
+    .photo {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 0 auto 15px;
+      border: 1px solid #ddd;
+    }
+    .caption {
+      text-align: center;
+      font-style: italic;
+      font-size: 14px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+    .article {
+      font-size: 16px;
+      text-align: justify;
+    }
+    .article p {
+      margin-bottom: 16px;
+    }
+    .footer-call {
+      margin-top: 25px;
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      font-style: italic;
     }
     @media (min-width: 768px) {
       .article {
         column-count: 2;
-        column-gap: 34px;
+        column-gap: 30px;
       }
-    }
-    .footer-call {
-      margin-top: 35px;
-      font-size: 14px;
-      text-align: center;
-      color: #666;
-      font-style: italic;
+      .article p {
+        margin-bottom: 0;
+        text-align: justify;
+      }
     }
   </style>
 </head>
@@ -35,8 +104,8 @@
     <h2 class="headline">O HOMEM QUE RETORNOU DA MORTE</h2>
     <p class="subhead">Comunidade se divide após caso inédito na Justiça catarinense: réu colapsa em audiência, é declarado morto — e reaparece dias depois com nova identidade, memória e propósito</p>
 
-    <!-- Imagem real de Daniel Rojas -->
-    <img src="daniel_rojas.jpg" alt="Daniel Rojas sentado em banco de praça, olhando para o horizonte" class="photo">
+    <!-- Imagem real: nome exato deve ser "daniel-rojas.jpg" -->
+    <img src="daniel-rojas.jpg" alt="Daniel Rojas sentado em banco de praça, olhando para o horizonte" class="photo">
     <p class="caption">“Réu ‘morre’ em audiência e volta como outro homem.”</p>
 
     <div class="article">
@@ -52,23 +121,6 @@
       <p>
         Enquanto religiosos e ativistas celebram o episódio como um “milagre contemporâneo”, o Judiciário enfrenta um dilema jurídico sem precedentes: pode o sistema penal responsabilizar um sujeito cuja continuidade psicológica foi dissolvida? O Ministério Público debate se “Tiago” pode ser punido pelos atos de “Daniel” — um corpo idêntico, mas uma subjetividade inteiramente nova.
       </p>
-    </div>
-
-    <!-- Elementos complementares -->
-    <div class="complementary">
-      <h3>🔍 Recursos Complementares</h3>
-      <p>Explore conteúdos multimídia que aprofundam os temas neurojurídicos abordados nesta reportagem:</p>
-
-      <div class="qr-container">
-        <img src="assets/qr-glossario.png" alt="QR Code: Glossário Neurojurídico">
-        <p><em>Escaneie para acessar o glossário de termos em Neurodireito</em></p>
-      </div>
-
-      <ul class="resources-list">
-        <li>🎥 <a href="https://youtu.be/neurodireito-rojas" target="_blank" rel="noopener">Depoimento de Tiago (vídeo simulado)</a></li>
-        <li>🧠 <a href="https://neurodireito-exploratorio.github.io/entrevista-vargas" target="_blank" rel="noopener">Entrevista com o neurologista Dr. Alencar Vargas</a></li>
-        <li>⚖️ <a href="https://neurodireito-exploratorio.github.io/glossario" target="_blank" rel="noopener">Glossário: Conceitos-chave em Neurodireito</a></li>
-      </ul>
     </div>
 
     <p class="footer-call">
